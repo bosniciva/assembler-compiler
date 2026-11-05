@@ -5,6 +5,7 @@ A custom-built, sequential optimization compiler written in C++ designed to tran
 ## Compiler Pipeline & Architectural Features
 
 The compiler is structured as a standard sequential pipeline divided into separate analysis and optimization phases:
+
 [ .mavn file ] ──> [ Lexical Analysis ] ──> [ Syntax Analysis ] ──> [ Liveness Analysis ] ──> [ Resource Allocation ] ──> [ .s file ]
 
 *   **Lexical Analyzer (Lexer):** Tokenizes the incoming characters into discrete architectural blocks (keywords, labels, variable identifiers, symbols, and operands) while detecting lexical errors and unexpected tokens.
